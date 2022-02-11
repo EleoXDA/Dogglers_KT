@@ -44,32 +44,31 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
-            app:layout_constraintEnd_toEndOf="@id/doggler"
-            app:layout_constraintTop_toBottomOf="@id/doggler"/>
+            app:layout_constraintEnd_toEndOf="@id/dog_image"
+            app:layout_constraintTop_toBottomOf="@id/dog_image"/>
         <TextView
             android:id="@+id/dog_age"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/dog_name"/>
+            app:layout_constraintTop_toBottomOf="@id/dog_name"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"/>
         <TextView
             android:id="@+id/dog_hobby"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:textAlignment="viewEnd"
             app:layout_constraintTop_toBottomOf="@id/dog_name"
-            app:layout_constraintStart_toEndOf="@id/dog_age"/>
+            app:layout_constraintLeft_toRightOf="@id/dog_age"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"/>
 
         <ImageView
-            app:srcCompat="@+id/dog_image"
-            android:id="@+id/doggler"
+            android:id="@+id/dog_image"
             android:layout_width="match_parent"
             android:layout_height="194dp"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:contentDescription="@string/Dog_1"/>
+            app:layout_constraintBottom_toBottomOf="parent"/>
 
         <!-- TODO: Create a TextView for each of the following:
                 The dog's name

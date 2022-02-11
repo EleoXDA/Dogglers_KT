@@ -62,7 +62,7 @@ class DogCardAdapter(private val context: Context, private val layout: Int): Rec
         return DogCardViewHolder(adapterLayout)
     }
 
-    override fun getItemCount(): Int = dataset.size
+    override fun getItemCount(): Int = 0 // TODO: return the size of the data set instead of 0
 
     override fun onBindViewHolder(holder: DogCardAdapter.DogCardViewHolder, position: Int) {
         // TODO: Get the data at the current position
@@ -70,7 +70,7 @@ class DogCardAdapter(private val context: Context, private val layout: Int): Rec
         // TODO: Set the text for the current dog's name
         // TODO: Set the text for the current dog's age
         val resources = context?.resources
-        resources?.getDrawable(R.id.dog_image, dog.image)
+        resources?.getDrawable(R.drawable.dogs, dogs.image)
         resources?.getString(R.string.dog_hobbies. dog.hobbies)
         // TODO: Set the text for the current dog's hobbies by passing the hobbies to the
         //  R.string.dog_hobbies string constant.
