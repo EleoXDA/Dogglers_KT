@@ -54,7 +54,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/dog_name"/>
         <TextView
-            android:id="@+id/hobbies"
+            android:id="@+id/dog_hobby"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -63,7 +63,7 @@
             app:layout_constraintStart_toEndOf="@id/dog_age"/>
 
         <ImageView
-            app:srcCompat="@drawable/dog_image"
+            app:srcCompat="@+id/dog_image"
             android:id="@+id/doggler"
             android:layout_width="match_parent"
             android:layout_height="194dp"
