@@ -37,41 +37,46 @@
                The height should be 194dp
                The width should match the with of the card
                The scaleType should be set to centerCrop-->
+        <ImageView
+            android:id="@+id/dog_image"
+            android:layout_width="wrap_content"
+            android:layout_height="194dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
         <TextView
             android:id="@+id/dog_name"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
-            app:layout_constraintEnd_toEndOf="@id/dog_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/dog_age"
             app:layout_constraintTop_toBottomOf="@id/dog_image"/>
         <TextView
             android:id="@+id/dog_age"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/dog_name"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"/>
         <TextView
             android:id="@+id/dog_hobby"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:gravity="end"
-            app:layout_constraintTop_toBottomOf="@id/dog_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/dog_age"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"/>
 
-        <ImageView
-            android:id="@+id/dog_image"
-            android:layout_width="match_parent"
-            android:layout_height="194dp"
-            android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+
 
         <!-- TODO: Create a TextView for each of the following:
                 The dog's name
