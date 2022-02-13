@@ -18,9 +18,6 @@ package eu.eleo.dogglers.data
 import eu.eleo.dogglers.R
 import eu.eleo.dogglers.model.Dog
 
-/**
- * An object to generate a static list of dogs
- */
 object DataSource {
 
     val dogs: List<Dog> = listOf(

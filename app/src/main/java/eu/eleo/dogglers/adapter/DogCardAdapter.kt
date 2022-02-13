@@ -23,60 +23,53 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import eu.eleo.dogglers.R
-import eu.eleo.dogglers.const.Layout
-import eu.eleo.dogglers.model.Dog
+import eu.eleo.dogglers.data.DataSource
 
-/**
- * Adapter to inflate the appropriate list item layout and populate the view with information
- * from the appropriate data source
- */
-class DogCardAdapter(private val context: Context, private val layout: Int): RecyclerView.Adapter<DogCardAdapter.DogCardViewHolder>() {
 
-    /** TODO: Initialize the data using the List found in data/DataSource
-        Initialize view elements
-     */
-    class DogCardViewHolder(private val view: View): RecyclerView.ViewHolder(view) {
-        val dogname: TextView = view.findViewById(R.id.dog_name)
-        val dogage: TextView = view.findViewById(R.id.dog_age)
-        val doghobby: TextView = view.findViewById(R.id.dog_hobby)
-        val dogimage: ImageView = view.findViewById(R.id.dog_image)
+class DogCardAdapter(
+    private val context: Context?,
+    private val layout: Int
+) : RecyclerView.Adapter<DogCardAdapter.DogCardViewHolder>() {
+    private val data = DataSource.dogs
 
-        // TODO: Declare and initialize all of the list item UI components
+    class DogCardViewHolder(view: View?) : RecyclerView.ViewHolder(view!!) {
+
+        val dogName: TextView = view!!.findViewById(R.id.dog_name)
+        val dogAge: TextView = view!!.findViewById(R.id.dog_age)
+        val dogHobby: TextView = view!!.findViewById(R.id.dog_hobby)
+        val dogImage: ImageView = view!!.findViewById(R.id.dog_image)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, Layout: Int): DogCardViewHolder {
-        when (Layout) {
-            3 -> adapterLayout = LayoutInflater.from(parent.context).inflate(R.layout.grid_list_item, parent, false)
-            else -> adapterLayout = LayoutInflater.from(parent.context).inflate(R.layout.vertical_horizontal_list_item, parent, false)
+    override fun onCreateViewHolder(
+        parent: ViewGroup,
+        Layout: Int
+    ): DogCardViewHolder {
+        val adapterLayout = when (layout) {
+            1 -> {
+                LayoutInflater.from(parent.context)
+                    .inflate(R.layout.vertical_horizontal_list_item, parent, false)
+            }
+            2 -> {
+                LayoutInflater.from(parent.context)
+                    .inflate(R.layout.vertical_horizontal_list_item, parent, false)
+            }
+            else -> {
+                LayoutInflater.from(parent.context).inflate(R.layout.grid_list_item, parent, false)
+            }
+
         }
-        // TODO: Use a conditional to determine the layout type and set it accordingly.
-        //  if the layout variable is Layout.GRID the grid list item should be used. Otherwise the
-        //  the vertical/horizontal list item should be used.
 
-
-
-        // TODO Inflate the layout
-
-        // TODO: Null should not be passed into the view holder. This should be updated to reflect
-        //  the inflated layout.
         return DogCardViewHolder(adapterLayout)
     }
 
-    override fun getItemCount(): Int = 0 // TODO: return the size of the data set instead of 0
+    override fun getItemCount(): Int = data.size
 
-    override fun onBindViewHolder(holder: DogCardAdapter.DogCardViewHolder, position: Int) {
-        // TODO: Get the data at the current position
-        // TODO: Set the image resource for the current dog
-        // TODO: Set the text for the current dog's name
-        // TODO: Set the text for the current dog's age
-        val resources = context?.resources
-        resources?.getDrawable(R.drawable.dogs, dogs.image)
-        resources?.getString(R.string.dog_hobbies. dog.hobbies)
-        // TODO: Set the text for the current dog's hobbies by passing the hobbies to the
-        //  R.string.dog_hobbies string constant.
-        //  Passing an argument to the string resource looks like:
-        //  resources?.getString(R.string.dog_hobbies, dog.hobbies)
-        resources?.getString(R.string.dog_hobbies, dog.hobbies)
-
+    override fun onBindViewHolder(holder: DogCardViewHolder, position: Int) {
+        context?.resources
+        val doggy = data[position]
+        holder.dogImage.setImageResource(doggy.imageResourceId)
+        holder.dogName.text = doggy.name
+        holder.dogAge.text = context?.resources?.getString(R.string.dog_age, doggy.age)
+        holder.dogHobby.text = context?.resources?.getString(R.string.dog_hobbies, doggy.hobbies)
     }
 }
