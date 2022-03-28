@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dogglers.iml" filepath="$PROJECT_DIR$/.idea/modules/Dogglers.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Dogglers.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Dogglers.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Dogglers.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Dogglers.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Dogglers.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Dogglers.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Dogglers.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Dogglers.app.unitTest.iml" />
     </modules>
   </component>
 </project>
