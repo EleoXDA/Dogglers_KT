@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2021 The Android Open Source Project.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="eu.eleo.dogglers"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="33" />
+24-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:25:22-69
+27
+28    <application
+28-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:19:5-50:19
+29        android:allowBackup="true"
+29-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:20:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.8.0] C:\Users\elbay\.gradle\caches\transforms-3\8a9e634b9fa2342236d9d40ba886a153\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:21:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:22:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:23:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:24:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.Dogglers" >
+37-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:25:9-46
+38        <activity android:name="eu.eleo.dogglers.VerticalListActivity" >
+38-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:27:9-31:20
+38-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:27:19-55
+39            <meta-data
+39-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:28:13-30:49
+40                android:name="android.support.PARENT_ACTIVITY"
+40-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:29:17-63
+41                android:value=".MainActivity" />
+41-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:30:17-46
+42        </activity>
+43        <activity android:name="eu.eleo.dogglers.HorizontalListActivity" >
+43-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:32:9-36:20
+43-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:32:19-57
+44            <meta-data
+44-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:28:13-30:49
+45                android:name="android.support.PARENT_ACTIVITY"
+45-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:29:17-63
+46                android:value=".MainActivity" />
+46-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:30:17-46
+47        </activity>
+48        <activity android:name="eu.eleo.dogglers.GridListActivity" >
+48-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:37:9-41:20
+48-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:37:19-51
+49            <meta-data
+49-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:28:13-30:49
+50                android:name="android.support.PARENT_ACTIVITY"
+50-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:29:17-63
+51                android:value=".MainActivity" />
+51-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:30:17-46
+52        </activity>
+53        <activity
+53-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:42:9-49:20
+54            android:name="eu.eleo.dogglers.MainActivity"
+54-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:42:19-47
+55            android:exported="true" >
+55-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:43:13-36
+56            <intent-filter>
+56-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:44:13-48:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:45:17-69
+57-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:45:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:47:17-77
+59-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:47:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:28:9-37:20
+63            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+63-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:29:13-96
+64            android:exported="true"
+64-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:30:13-36
+65            android:multiprocess="true"
+65-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:31:13-40
+66            android:taskAffinity=""
+66-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:32:13-36
+67            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+67-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:33:13-78
+68            <intent-filter>
+68-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:34:13-36:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:45:17-69
+69-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:45:25-66
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
+73            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+73-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
+74            android:exported="true"
+74-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
+75            android:theme="@android:style/Theme" >
+75-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
+76            <intent-filter>
+76-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:34:13-36:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:45:17-69
+77-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:45:25-66
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
+81            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+81-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
+82            android:exported="true"
+82-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
+83            android:theme="@android:style/Theme" >
+83-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
+84            <intent-filter>
+84-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:34:13-36:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:45:17-69
+85-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:45:25-66
+86            </intent-filter>
+87        </activity>
+88        <activity
+88-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
+89            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+89-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
+90            android:exported="true"
+90-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
+91            android:theme="@android:style/Theme.Dialog" >
+91-->[androidx.test:core:1.4.0] C:\Users\elbay\.gradle\caches\transforms-3\f0c4e12eed348b7867edd8218308a846\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
+92            <intent-filter>
+92-->[androidx.fragment:fragment-testing:1.5.0] C:\Users\elbay\.gradle\caches\transforms-3\6cd12f52eed9d83e6ea6c0a57327915b\transformed\jetified-fragment-testing-1.5.0\AndroidManifest.xml:34:13-36:29
+93                <action android:name="android.intent.action.MAIN" />
+93-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:45:17-69
+93-->C:\Users\elbay\StudioProjects\Dogglers_Kotlin_Training\app\src\main\AndroidManifest.xml:45:25-66
+94            </intent-filter>
+95        </activity>
+96
+97        <provider
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\elbay\.gradle\caches\transforms-3\c0788b464856855cc611a12710391994\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+98            android:name="androidx.startup.InitializationProvider"
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\elbay\.gradle\caches\transforms-3\c0788b464856855cc611a12710391994\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+99            android:authorities="eu.eleo.dogglers.androidx-startup"
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\elbay\.gradle\caches\transforms-3\c0788b464856855cc611a12710391994\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+100            android:exported="false" >
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\elbay\.gradle\caches\transforms-3\c0788b464856855cc611a12710391994\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+101            <meta-data
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\elbay\.gradle\caches\transforms-3\c0788b464856855cc611a12710391994\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\elbay\.gradle\caches\transforms-3\c0788b464856855cc611a12710391994\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+103                android:value="androidx.startup" />
+103-->[androidx.emoji2:emoji2:1.0.0] C:\Users\elbay\.gradle\caches\transforms-3\c0788b464856855cc611a12710391994\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\elbay\.gradle\caches\transforms-3\c76cc07e0722fc91af95184f9ce31d89\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\elbay\.gradle\caches\transforms-3\c76cc07e0722fc91af95184f9ce31d89\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\elbay\.gradle\caches\transforms-3\c76cc07e0722fc91af95184f9ce31d89\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+107        </provider>
+108    </application>
+109
+110</manifest>

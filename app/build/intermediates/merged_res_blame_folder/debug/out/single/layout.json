@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "eu.eleo.dogglers.app-mergeDebugResources-36:/layout/activity_horizontal_list.xml",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/activity_horizontal_list.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-mergeDebugResources-36:/layout/activity_grid_list.xml",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/activity_grid_list.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-mergeDebugResources-36:/layout/grid_list_item.xml",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/grid_list_item.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-mergeDebugResources-36:/layout/vertical_horizontal_list_item.xml",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/vertical_horizontal_list_item.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-mergeDebugResources-36:/layout/activity_vertical_list.xml",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/activity_vertical_list.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-mergeDebugResources-36:/layout/activity_main.xml",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/activity_main.xml"
+    }
+]

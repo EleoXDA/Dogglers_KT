@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/layout_activity_vertical_list.xml.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/activity_vertical_list.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/drawable_bella.jpg.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/drawable/bella.jpg"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/drawable_frankie.jpg.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/drawable/frankie.jpg"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/drawable_nox.jpg.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/drawable/nox.jpg"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/layout_grid_list_item.xml.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/grid_list_item.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/layout_activity_grid_list.xml.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/activity_grid_list.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/drawable_tzeitel.jpg.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/drawable/tzeitel.jpg"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/drawable_leroy.jpg.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/drawable/leroy.jpg"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/drawable_faye.jpg.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/drawable/faye.jpg"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/layout_activity_horizontal_list.xml.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/activity_horizontal_list.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "eu.eleo.dogglers.app-merged_res-37:/layout_vertical_horizontal_list_item.xml.flat",
+        "source": "eu.eleo.dogglers.app-main-39:/layout/vertical_horizontal_list_item.xml"
+    }
+]
